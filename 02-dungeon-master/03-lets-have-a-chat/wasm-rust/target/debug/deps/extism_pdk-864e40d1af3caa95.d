@@ -1,0 +1,12 @@
+/workspaces/Aethelgard/02-dungeon-master/03-lets-have-a-chat/wasm-rust/target/debug/deps/libextism_pdk-864e40d1af3caa95.rmeta: /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/lib.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/macros.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/extism.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/memory.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/to_memory.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/config.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/var.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/http.rs
+
+/workspaces/Aethelgard/02-dungeon-master/03-lets-have-a-chat/wasm-rust/target/debug/deps/extism_pdk-864e40d1af3caa95.d: /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/lib.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/macros.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/extism.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/memory.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/to_memory.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/config.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/var.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/http.rs
+
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/lib.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/macros.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/extism.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/memory.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/to_memory.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/config.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/var.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/extism-pdk-1.2.1/src/http.rs:

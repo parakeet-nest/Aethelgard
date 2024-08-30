@@ -2,7 +2,7 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Default Light+",
     "editor.fontSize": 14,
-    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.fontSize": 22,
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
     "editor.detectIndentation": true,
@@ -14,7 +14,7 @@
         "diffEditor.ignoreTrimWhitespace": false,
         "editor.fontWeight": "normal",
         "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
-        "editor.fontSize": 16,
+        "editor.fontSize": 18,
         "editor.wordWrap": "on",
         "editor.quickSuggestions": {
             "comments": "off",
@@ -22,27 +22,31 @@
             "other": "off"
         }
     },
-    "markdown.preview.fontSize": 18,
+    "markdown.preview.fontSize": 24,
     "[dockerfile]": {
-        "editor.fontSize": 20,
+        "editor.fontSize": 14,
     },
     "[dockercompose]": {
-        "editor.fontSize": 20,
+        "editor.fontSize": 14,
     },
     "[go]": {
-        "editor.fontSize": 20,
+        "editor.fontSize": 22,
+
+    },
+    "[rust]": {
+        "editor.fontSize": 22,
 
     },
     "[json]": {
-        "editor.fontSize": 20,
+        "editor.fontSize": 14,
 
     },
     "[hcl]": {
-        "editor.fontSize": 20,
+        "editor.fontSize": 14,
 
     },
     "[yaml]": {
-        "editor.fontSize": 20,
+        "editor.fontSize": 14,
 
     },
     "workbench.editorAssociations": {

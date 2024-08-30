@@ -1,0 +1,165 @@
+services:
+
+  ollama:
+    image: ollama/ollama:0.3.6
+    volumes:
+      - ollama-data:/root/.ollama
+    ports:
+      - 4000:11434
+
+  download-llm-all-minilm-33m:
+    image: curlimages/curl:8.6.0
+    entrypoint: ["curl", "ollama:11434/api/pull", "-d", "{\"name\": \"all-minilm:33m\"}"]
+    depends_on:
+      ollama:
+        condition: service_started
+
+  download-llm-all-minilm-22m:
+    image: curlimages/curl:8.6.0
+    entrypoint: ["curl", "ollama:11434/api/pull", "-d", "{\"name\": \"all-minilm:22m\"}"]
+    depends_on:
+      ollama:
+        condition: service_started
+
+  download-llm-qwen2-05b:
+    image: curlimages/curl:8.6.0
+    entrypoint: ["curl", "ollama:11434/api/pull", "-d", "{\"name\": \"qwen2:0.5b\"}"]
+    depends_on:
+      ollama:
+        condition: service_started
+
+  download-llm-qwen2-1-5b:
+    image: curlimages/curl:8.6.0
+    entrypoint: ["curl", "ollama:11434/api/pull", "-d", "{\"name\": \"qwen2:1.5b\"}"]
+    depends_on:
+      ollama:
+        condition: service_started
+
+  download-llm-qwen2-1-5b-instruct:
+    image: curlimages/curl:8.6.0
+    entrypoint: ["curl", "ollama:11434/api/pull", "-d", "{\"name\": \"qwen2:1.5b-instruct\"}"]
+    depends_on:
+      ollama:
+        condition: service_started
+
+  download-llm-qwen-05b:
+    image: curlimages/curl:8.6.0
+    entrypoint: ["curl", "ollama:11434/api/pull", "-d", "{\"name\": \"qwen:0.5b\"}"]
+    depends_on:
+      ollama:
+        condition: service_started
+
+  download-llm-deepseek-coder:
+    image: curlimages/curl:8.6.0
+    entrypoint: ["curl", "ollama:11434/api/pull", "-d", "{\"name\": \"deepseek-coder\"}"]
+    depends_on:
+      ollama:
+        condition: service_started
+
+  download-llm-tinyllama:
+    image: curlimages/curl:8.6.0
+    entrypoint: ["curl", "ollama:11434/api/pull", "-d", "{\"name\": \"tinyllama\"}"]
+    depends_on:
+      ollama:
+        condition: service_started
+
+  download-llm-tinydolphin:
+    image: curlimages/curl:8.6.0
+    entrypoint: ["curl", "ollama:11434/api/pull", "-d", "{\"name\": \"tinydolphin\"}"]
+    depends_on:
+      ollama:
+        condition: service_started
+
+  download-llm-phi3-mini:
+    image: curlimages/curl:8.6.0
+    entrypoint: ["curl", "ollama:11434/api/pull", "-d", "{\"name\": \"phi3:mini\"}"]
+    depends_on:
+      ollama:
+        condition: service_started
+
+  download-llm-phi35-mini:
+    image: curlimages/curl:8.6.0
+    entrypoint: ["curl", "ollama:11434/api/pull", "-d", "{\"name\": \"phi3.5:latest\"}"]
+    depends_on:
+      ollama:
+        condition: service_started
+
+  download-llm-gemma-2b:
+    image: curlimages/curl:8.6.0
+    entrypoint: ["curl", "ollama:11434/api/pull", "-d", "{\"name\": \"gemma:2b\"}"]
+    depends_on:
+      ollama:
+        condition: service_started
+
+  download-llm-gemma2-2b:
+    image: curlimages/curl:8.6.0
+    entrypoint: ["curl", "ollama:11434/api/pull", "-d", "{\"name\": \"gemma2:2b\"}"]
+    depends_on:
+      ollama:
+        condition: service_started
+
+  download-llm-dolphin-phi-2-7b:
+    image: curlimages/curl:8.6.0
+    entrypoint: ["curl", "ollama:11434/api/pull", "-d", "{\"name\": \"dolphin-phi:2.7b\"}"]
+    depends_on:
+      ollama:
+        condition: service_started
+
+  download-llm-dolphin-gemma2-2b:
+    image: curlimages/curl:8.6.0
+    entrypoint: ["curl", "ollama:11434/api/pull", "-d", "{\"name\": \"CognitiveComputations/dolphin-gemma2:2b\"}"]
+    depends_on:
+      ollama:
+        condition: service_started
+
+  download-llm-replete-coder-qwen2-1-5b:
+    image: curlimages/curl:8.6.0
+    entrypoint: ["curl", "ollama:11434/api/pull", "-d", "{\"name\": \"rouge/replete-coder-qwen2-1.5b:Q8\"}"]
+    depends_on:
+      ollama:
+        condition: service_started
+
+  download-llm-stable-code-3b:
+    image: curlimages/curl:8.6.0
+    entrypoint: ["curl", "ollama:11434/api/pull", "-d", "{\"name\": \"stable-code:3b\"}"]
+    depends_on:
+      ollama:
+        condition: service_started
+
+  download-llm-stablelm2:
+    image: curlimages/curl:8.6.0
+    entrypoint: ["curl", "ollama:11434/api/pull", "-d", "{\"name\": \"stablelm2\"}"]
+    depends_on:
+      ollama:
+        condition: service_started
+
+  download-llm-starcoder2-3b:
+    image: curlimages/curl:8.6.0
+    entrypoint: ["curl", "ollama:11434/api/pull", "-d", "{\"name\": \"starcoder2:3b\"}"]
+    depends_on:
+      ollama:
+        condition: service_started
+
+  download-llm-starcoder-1b:
+    image: curlimages/curl:8.6.0
+    entrypoint: ["curl", "ollama:11434/api/pull", "-d", "{\"name\": \"starcoder:1b\"}"]
+    depends_on:
+      ollama:
+        condition: service_started
+
+  download-llm-granite-code:
+    image: curlimages/curl:8.6.0
+    entrypoint: ["curl", "ollama:11434/api/pull", "-d", "{\"name\": \"granite-code\"}"]
+    depends_on:
+      ollama:
+        condition: service_started
+
+  download-llm-codegemma-2b:
+    image: curlimages/curl:8.6.0
+    entrypoint: ["curl", "ollama:11434/api/pull", "-d", "{\"name\": \"codegemma:2b\"}"]
+    depends_on:
+      ollama:
+        condition: service_started
+
+volumes:
+  ollama-data:

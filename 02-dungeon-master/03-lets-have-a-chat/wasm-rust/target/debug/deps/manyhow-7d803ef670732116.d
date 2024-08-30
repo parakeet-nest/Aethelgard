@@ -1,0 +1,11 @@
+/workspaces/Aethelgard/02-dungeon-master/03-lets-have-a-chat/wasm-rust/target/debug/deps/libmanyhow-7d803ef670732116.rmeta: /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.11.3/src/lib.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.11.3/src/span_ranged.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.11.3/src/macro_rules.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.11.3/src/error.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.11.3/src/parse_to_tokens.rs
+
+/workspaces/Aethelgard/02-dungeon-master/03-lets-have-a-chat/wasm-rust/target/debug/deps/libmanyhow-7d803ef670732116.rlib: /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.11.3/src/lib.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.11.3/src/span_ranged.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.11.3/src/macro_rules.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.11.3/src/error.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.11.3/src/parse_to_tokens.rs
+
+/workspaces/Aethelgard/02-dungeon-master/03-lets-have-a-chat/wasm-rust/target/debug/deps/manyhow-7d803ef670732116.d: /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.11.3/src/lib.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.11.3/src/span_ranged.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.11.3/src/macro_rules.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.11.3/src/error.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.11.3/src/parse_to_tokens.rs
+
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.11.3/src/lib.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.11.3/src/span_ranged.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.11.3/src/macro_rules.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.11.3/src/error.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/manyhow-0.11.3/src/parse_to_tokens.rs:

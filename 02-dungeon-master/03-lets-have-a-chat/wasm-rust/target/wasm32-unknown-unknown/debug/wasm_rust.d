@@ -1,0 +1,1 @@
+/workspaces/Aethelgard/02-dungeon-master/03-lets-have-a-chat/wasm-rust/target/wasm32-unknown-unknown/debug/wasm_rust.wasm: /workspaces/Aethelgard/02-dungeon-master/03-lets-have-a-chat/wasm-rust/src/lib.rs

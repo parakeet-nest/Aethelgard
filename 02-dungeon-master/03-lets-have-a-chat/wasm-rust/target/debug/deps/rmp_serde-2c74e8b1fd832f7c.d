@@ -1,0 +1,10 @@
+/workspaces/Aethelgard/02-dungeon-master/03-lets-have-a-chat/wasm-rust/target/debug/deps/librmp_serde-2c74e8b1fd832f7c.rmeta: /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rmp-serde-1.3.0/src/lib.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rmp-serde-1.3.0/src/bytes.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rmp-serde-1.3.0/src/config.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rmp-serde-1.3.0/src/decode.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rmp-serde-1.3.0/src/encode.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rmp-serde-1.3.0/src/../README.md
+
+/workspaces/Aethelgard/02-dungeon-master/03-lets-have-a-chat/wasm-rust/target/debug/deps/rmp_serde-2c74e8b1fd832f7c.d: /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rmp-serde-1.3.0/src/lib.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rmp-serde-1.3.0/src/bytes.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rmp-serde-1.3.0/src/config.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rmp-serde-1.3.0/src/decode.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rmp-serde-1.3.0/src/encode.rs /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rmp-serde-1.3.0/src/../README.md
+
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rmp-serde-1.3.0/src/lib.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rmp-serde-1.3.0/src/bytes.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rmp-serde-1.3.0/src/config.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rmp-serde-1.3.0/src/decode.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rmp-serde-1.3.0/src/encode.rs:
+/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/rmp-serde-1.3.0/src/../README.md:

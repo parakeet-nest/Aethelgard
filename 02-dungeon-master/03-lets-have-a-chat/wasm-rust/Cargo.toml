@@ -1,0 +1,12 @@
+[package]
+name = "wasm-rust"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate_type = ["cdylib"]
+
+[dependencies]
+extism-pdk = "1.2.1"
+num-traits = "0.2.19"
+serde = { version = "1.0", features = ["derive"] }
